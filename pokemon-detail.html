@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Pokedex</title>
     <link rel="manifest" href="manifest.json" />
@@ -17,13 +16,22 @@
   <body>
     <div class="container">
       <div id="notif" class="notif online">You're offline</div>
-      <a href="index.html"></a><h1 class="title">Pokedex</h1></a>
+      <a href="index.html"><h1 class="title">Pokedex</h1></a>
       <div class="content">
+        <div class="big-box">
+          <div class="box-content">
+          </div>
+          <div class="pokemon-type"></div>
+          <div class="pokemon-sprite"></div>
+          <div class="pokemon-stats">
+            <h2 class="status-title">STATUS</h2>
+            <ul class="status-list"></ul>
+          </div>
+        </div>
       </div>
-      <div class="clear"></div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/app.js"></script>
-    <script src="js/index.js"></script>
+    <script src="js/detail.js"></script>
   </body>
 </html>

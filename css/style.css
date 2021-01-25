@@ -1,4 +1,163 @@
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+}
 
+.title {
+  text-align: center;
+  font-size: 36px;
+  line-height: 80px;
+  color: chocolate;
+  font-weight: bold;
+  margin-bottom: 16px;
+  margin-top: 8px;
 
+  text-indent: -9999px;
+	background: url("../images/pokemon.jpg") no-repeat center;
+}
 
+.images {
+  margin: auto;
+  display: block;
+  width: 75px;
+  height: 75px;
+  background-image: url("../images/loading.gif");
+}
 
+.image-detail {
+  margin: auto;
+  display: block;
+  width: 70%;
+  height: auto;
+}
+
+.nav-block {
+  text-align: center;
+  display: block;
+}
+
+.pokemon-name {
+  font-size: 14px;
+  line-height: 26px;
+  color: rgb(56, 55, 55);
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.pokemon-name:hover {
+  color: rgb(141, 238, 44);
+}
+
+.box {
+  float: left;
+  width: 46%;
+  margin-bottom: 12px;
+  margin-right: 2%;
+  margin-left: 2%;
+  text-align: center;
+}
+
+.big-box {
+  width: 100%;
+}
+
+.box-content {
+  padding: 12px;
+  border: 1px solid #cccccc;
+}
+
+.clear {
+  clear: both;
+}
+
+.pokemon-type {
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.type-label {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 24px;
+  padding: 2px 4px;
+  background: rgb(223, 112, 112);
+  color: #fff;
+  margin: 0 4px;
+}
+
+.type-label.electric {
+  background: darkorange;
+}
+
+.type-label.grass {
+  background: rgb(40, 204, 53);
+}
+
+.type-label.poison {
+  background: rgb(76, 14, 100);
+}
+
+.type-label.fire {
+  background: rgb(223, 35, 28);
+}
+
+.type-label.water {
+  background: rgb(53, 95, 173);
+}
+
+.type-label.psychic {
+  background: rgb(230, 87, 182);
+}
+
+.type-label.bug {
+  background: rgb(10, 83, 10);
+}
+
+.type-label.flying {
+  background: rgb(95, 202, 235);
+}
+
+.pokemon-sprite {
+  text-align: center;
+}
+
+.small-sprite {
+  display: inline-block;
+  margin: 0 2px;
+}
+
+.status-title {
+  font-size: 14px;
+  line-height: 32px;
+  color: ghostwhite;
+  background: rgb(56, 65, 42);
+  display: block;
+  text-align: center;
+}
+
+.status-list li {
+  list-style-type: none;
+}
+
+.status-list li span{
+  display: inline-block;
+  font-size: 12px;
+}
+
+.stat-name {
+ width: 50%;
+ text-align: right;
+}
+
+.notif {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.notif.online {
+  display: none;
+}
