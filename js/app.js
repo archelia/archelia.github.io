@@ -8,10 +8,10 @@ if ("serviceWorker" in navigator) {
     function handleNetworkChange(event) {
       if (navigator.onLine) {
         alert("You're online")
-        document.getElementById("notif").classList.add("online")
+        $(".notif-content").html('')
       } else {
         alert("You're offline")
-        document.getElementById("notif").remove("online")
+        $(".notif-content").append('<div id="notif" class="notif online">You are offline</div>')
       }
     }
     window.addEventListener("online", handleNetworkChange)
